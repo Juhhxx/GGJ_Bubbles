@@ -68,7 +68,7 @@ public class Bubble : MonoBehaviour
     public void Move(Vector3 impulse)
     {
         _rigidbody.linearVelocity += impulse;
-        Debug.Log("actual: " + _rigidbody.linearVelocity);
+        // Debug.Log("actual: " + _rigidbody.linearVelocity);
     }
 
     public void Pop()

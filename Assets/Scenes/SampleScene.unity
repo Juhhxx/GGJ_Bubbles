@@ -148,7 +148,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 966265808}
   m_Father: {fileID: 313638253}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -45}
 --- !u!212 &11636239
@@ -1604,8 +1605,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 13
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 7.64
+  m_Center: {x: 0.13, y: 0, z: 0.51}
 --- !u!4 &958571064
 Transform:
   m_ObjectHideFlags: 0
@@ -1623,6 +1624,59 @@ Transform:
   - {fileID: 174789888}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &966265807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 966265808}
+  - component: {fileID: 966265809}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &966265808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966265807}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0040759076, y: 0.012841493, z: -0.36964402, w: 0.9290758}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 11636238}
+  m_LocalEulerAnglesHint: {x: 0.11, y: 1.54, z: -43.39}
+--- !u!65 &966265809
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966265807}
+  m_Material: {fileID: 13400000, guid: 5a7eafbd4cbcf8b45a663ddfa764c864, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 22.261494, y: 22.476519, z: 12.75}
+  m_Center: {x: 5.531353, y: 6.036163, z: -0.0000063971793}
 --- !u!1 &1125429765
 GameObject:
   m_ObjectHideFlags: 0

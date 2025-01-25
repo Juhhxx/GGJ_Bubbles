@@ -25,7 +25,7 @@ public class PlayerInput : MonoBehaviour
         _move.x = _velocity * _moveDelta.x;
         _move.y = _velocity * _moveDelta.y;
 
-        // Debug.Log("mov: " + _move + "     velocity: " + _velocity + "    _delta: " + _moveDelta);
+        Debug.Log("mov: " + _move + "     velocity: " + _velocity + "    _delta: " + _moveDelta);
 
         Move(_move);
 
@@ -37,6 +37,8 @@ public class PlayerInput : MonoBehaviour
 
         _aim.x = _aimDelta.x;
         _aim.y = _aimDelta.y;
+
+        Debug.Log("aim: " + _aim + "     _delta: " + _aimDelta);
 
         Look(_aim);
 
@@ -65,6 +67,7 @@ public class PlayerInput : MonoBehaviour
     /// <param name="lookTo"></param>
     private void Look(Vector3 lookTo)
     {
-        transform.LookAt(lookTo);
+        Vector3 actual = transform.position + lookTo;
+        transform.LookAt(actual);
     }
 }

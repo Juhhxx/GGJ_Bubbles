@@ -24,13 +24,13 @@ public class Bubble : MonoBehaviour
 
         Move(_newDir * _velocity);
 
-        Debug.Log( "change: " + _newDir * _velocity );
+        // Debug.Log( "change: " + _newDir * _velocity );
     }
 
     private void Move(Vector3 impulse)
     {
         _rigidbody.linearVelocity += impulse;
-        Debug.Log("actual: " + _rigidbody.linearVelocity);
+        // Debug.Log("actual: " + _rigidbody.linearVelocity);
     }
 
     public void OnDestroy()

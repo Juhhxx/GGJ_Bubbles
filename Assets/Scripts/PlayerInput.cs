@@ -46,7 +46,7 @@ public class PlayerInput : MonoBehaviour
         Move(_move);
         Look(_feetTrans, _move);
 
-        _animator.SetBool("IsMoving", _moveDelta != Vector2.zero);
+        _feetAnimator.SetBool("IsMoving", _moveDelta != Vector2.zero);
     }
     private void DoAim()
     {

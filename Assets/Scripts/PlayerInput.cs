@@ -3,9 +3,12 @@ using UnityEngine;
 public class PlayerInput : MonoBehaviour
 {
     [SerializeField] private float _velocity;
-    [SerializeField] private Rigidbody _rigidbody;
+    [SerializeField] private Animator _feetAnimator;
     [SerializeField] private Animator _animator;
     [SerializeField] private string _playerNum;
+    [SerializeField] private Transform _feetTrans;
+    [SerializeField] private Transform _batTrans;
+    private Rigidbody _rigidbody;
     private Vector2 _moveDelta = new Vector2(0f, 0f);
     private Vector2 _aimDelta = new Vector2(0f, 0f);
     private Vector3 _move = new Vector3(0f, 0f, 0f);
@@ -13,9 +16,22 @@ public class PlayerInput : MonoBehaviour
 
     private void Start()
     {
+        _rigidbody = GetComponent<Rigidbody>();
         _aim.y = transform.position.y;
     }
     private void Update()
+    {
+        DoMovemet();
+        DoAim();
+
+        if (Input.GetButtonDown("Fire" + _playerNum))
+            _animator.SetTrigger("Hold");
+
+        if (Input.GetButtonUp("Fire" + _playerNum))
+            _animator.SetTrigger("Swing");
+    }
+
+    private void DoMovemet()
     {
         _move = _rigidbody.linearVelocity;
 
@@ -28,10 +44,12 @@ public class PlayerInput : MonoBehaviour
         Debug.Log("mov: " + _move + "     velocity: " + _velocity + "    _delta: " + _moveDelta);
 
         Move(_move);
+        Look(_feetTrans, _move);
 
         _animator.SetBool("IsMoving", _moveDelta != Vector2.zero);
-
-
+    }
+    private void DoAim()
+    {
         _aimDelta.x = Input.GetAxis("AimX" + _playerNum);
         _aimDelta.y = Input.GetAxis("AimY" + _playerNum);
 
@@ -40,14 +58,7 @@ public class PlayerInput : MonoBehaviour
 
         Debug.Log("aim: " + _aim + "     _delta: " + _aimDelta);
 
-        Look(_aim);
-
-
-        if (Input.GetButtonDown("Fire" + _playerNum))
-            _animator.SetTrigger("Hold");
-
-        if (Input.GetButtonUp("Fire" + _playerNum))
-            _animator.SetTrigger("Swing");
+        Look(_batTrans, _aim);
     }
 
     /// <summary>
@@ -65,9 +76,9 @@ public class PlayerInput : MonoBehaviour
     /// Nyeh.
     /// </summary>
     /// <param name="lookTo"></param>
-    private void Look(Vector3 lookTo)
+    private void Look(Transform trans, Vector3 lookTo)
     {
         Vector3 actual = transform.position - lookTo;
-        transform.LookAt(actual);
+        trans.LookAt(actual);
     }
 }

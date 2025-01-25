@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpikyStuffTilesett_0: -2345021864210478896
+      SpikyStuffTilesett_1: -7609534413651955553
+      SpikyStuffTilesett_2: 4172451281960986364
+      SpikyStuffTilesett_3: 8868354265379078819
+      SpikyStuffTilesett_4: 6952045783713929762
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

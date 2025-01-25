@@ -3,14 +3,40 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     [SerializeField] private float _velocity;
-    private Rigidbody2D _rigidbody;
+    [SerializeField] private Rigidbody _rigidbody;
+    [SerializeField] private Animator _animator;
+    [SerializeField] private string _playerNum;
+    private Vector2 _moveDelta = new Vector2(0f, 0f);
+    private Vector2 _aimDelta = new Vector2(0f, 0f);
+    private Vector3 _move = new Vector3(0f, 0f, 0f);
+    private Vector3 _aim = new Vector3(0f, 0f, 0f);
+
     private void Start()
     {
-        
+        _aim.z = transform.position.z;
     }
     private void Update()
     {
-        
+        _move = _rigidbody.linearVelocity;
+
+        _moveDelta.x = Input.GetAxis("MoveX" + _playerNum);
+        _moveDelta.y = Input.GetAxis("MoveY" + _playerNum);
+
+        _move.x += _velocity * _moveDelta.x;
+        _move.y += _velocity * _moveDelta.y;
+
+        Debug.Log("mov: " + _move + "     velocity: " + _velocity + "    _delta: " + _moveDelta);
+
+        Move(_move);
+
+
+        _aimDelta.x = Input.GetAxis("AimX" + _playerNum);
+        _aimDelta.y = Input.GetAxis("AimY" + _playerNum);
+
+        _aim.x = _aimDelta.x;
+        _aim.y = _aimDelta.y;
+
+        Look(_aim);
     }
 
     /// <summary>
@@ -22,5 +48,14 @@ public class Movement : MonoBehaviour
     {
         // And therefore talvez movimento com fisica seja melhor?
         _rigidbody.linearVelocity = force;
+    }
+
+    /// <summary>
+    /// Nyeh.
+    /// </summary>
+    /// <param name="lookTo"></param>
+    private void Look(Vector3 lookTo)
+    {
+        transform.LookAt(lookTo);
     }
 }

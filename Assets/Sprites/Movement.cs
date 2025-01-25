@@ -19,8 +19,8 @@ public class Movement : MonoBehaviour
     {
         _move = _rigidbody.linearVelocity;
 
-        _moveDelta.x = Input.GetAxis("Horizontal" + _playerNum);
-        _moveDelta.y = Input.GetAxis("Vertical" + _playerNum);
+        _moveDelta.x = Input.GetAxis("MoveX" + _playerNum);
+        _moveDelta.y = Input.GetAxis("MoveY" + _playerNum);
 
         _move.x += _velocity * _moveDelta.x;
         _move.y += _velocity * _moveDelta.y;

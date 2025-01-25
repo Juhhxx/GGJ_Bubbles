@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class PlayerInput : MonoBehaviour
 {
     [SerializeField] private float _velocity;
     [SerializeField] private Rigidbody _rigidbody;
@@ -29,6 +29,8 @@ public class Movement : MonoBehaviour
 
         Move(_move);
 
+        _animator.SetBool("IsMoving", _moveDelta != Vector2.zero);
+
 
         _aimDelta.x = Input.GetAxis("AimX" + _playerNum);
         _aimDelta.y = Input.GetAxis("AimY" + _playerNum);
@@ -37,6 +39,13 @@ public class Movement : MonoBehaviour
         _aim.y = _aimDelta.y;
 
         Look(_aim);
+
+
+        if (Input.GetButtonDown("Fire" + _playerNum))
+            _animator.SetTrigger("Hold");
+
+        if (Input.GetButtonUp("Fire" + _playerNum))
+            _animator.SetTrigger("Swing");
     }
 
     /// <summary>

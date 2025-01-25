@@ -25,7 +25,7 @@ public class PlayerInput : MonoBehaviour
         _move.x = _velocity * _moveDelta.x;
         _move.y = _velocity * _moveDelta.y;
 
-        Debug.Log("mov: " + _move + "     velocity: " + _velocity + "    _delta: " + _moveDelta);
+        // Debug.Log("mov: " + _move + "     velocity: " + _velocity + "    _delta: " + _moveDelta);
 
         Move(_move);
 

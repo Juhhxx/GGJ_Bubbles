@@ -15,16 +15,16 @@ public class Bubble : MonoBehaviour
 
     private void Update()
     {
-        int changeDir = Random.Range(0,3);
+        int changeDir = Random.Range(0,2);
 
         if (changeDir == 0)
             _newDir = new Vector3(Random.Range(-1f,1f), Random.Range(-1f,1f), 0f);
 
-        _maxIdleVelocity = Random.Range(0.01f,_maxIdleVelocity);
+        float _velocity = Random.Range(0.01f,_maxIdleVelocity);
 
-        Move(_newDir * _maxIdleVelocity);
+        Move(_newDir * _velocity);
 
-        Debug.Log("actual: " + _newDir * _maxIdleVelocity);
+        Debug.Log( "change: " + _newDir * _velocity );
     }
 
     private void Move(Vector3 impulse)

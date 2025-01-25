@@ -41,7 +41,7 @@ public class PlayerInput : MonoBehaviour
         _move.x = _velocity * _moveDelta.x;
         _move.z = _velocity * _moveDelta.y;
 
-        Debug.Log("mov: " + _move + "     velocity: " + _velocity + "    _delta: " + _moveDelta);
+        // Debug.Log("mov: " + _move + "     velocity: " + _velocity + "    _delta: " + _moveDelta);
 
         Move(_move);
         Look(_feetTrans, _move);
@@ -56,9 +56,17 @@ public class PlayerInput : MonoBehaviour
         _aim.x = _aimDelta.x;
         _aim.z = _aimDelta.y;
 
-        Debug.Log("aim: " + _aim + "     _delta: " + _aimDelta);
+        // Debug.Log("aim: " + _aim + "     _delta: " + _aimDelta);
 
         Look(_batTrans, _aim);
+    }
+
+    public void Hurt(Vector3 impulse)
+    {
+        Move(impulse * 3f);
+
+        // Maybe some kind of flash?
+        _animator.SetTrigger("Hurt");
     }
 
     /// <summary>

@@ -13,7 +13,7 @@ public class PlayerInput : MonoBehaviour
 
     private void Start()
     {
-        _aim.z = transform.position.z;
+        _aim.y = transform.position.y;
     }
     private void Update()
     {
@@ -36,7 +36,7 @@ public class PlayerInput : MonoBehaviour
         _aimDelta.y = Input.GetAxis("AimY" + _playerNum);
 
         _aim.x = _aimDelta.x;
-        _aim.y = _aimDelta.y;
+        _aim.z = _aimDelta.y;
 
         Debug.Log("aim: " + _aim + "     _delta: " + _aimDelta);
 

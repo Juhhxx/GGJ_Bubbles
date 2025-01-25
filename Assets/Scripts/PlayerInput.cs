@@ -22,8 +22,8 @@ public class PlayerInput : MonoBehaviour
         _moveDelta.x = Input.GetAxis("MoveX" + _playerNum);
         _moveDelta.y = Input.GetAxis("MoveY" + _playerNum);
 
-        _move.x += _velocity * _moveDelta.x;
-        _move.y += _velocity * _moveDelta.y;
+        _move.x = _velocity * _moveDelta.x;
+        _move.y = _velocity * _moveDelta.y;
 
         Debug.Log("mov: " + _move + "     velocity: " + _velocity + "    _delta: " + _moveDelta);
 
@@ -56,7 +56,7 @@ public class PlayerInput : MonoBehaviour
     public void Move(Vector3 force)
     {
         // And therefore talvez movimento com fisica seja melhor?
-        _rigidbody.linearVelocity = force;
+        _rigidbody.linearVelocity += force;
     }
 
     /// <summary>

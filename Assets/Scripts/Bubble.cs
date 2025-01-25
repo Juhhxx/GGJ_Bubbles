@@ -26,8 +26,15 @@ public class Bubble : MonoBehaviour
 
         // Debug.Log( "change: " + _newDir * _velocity );
     }
+    public void Duplicate(bool Impulse = false)
+    {
+        GameObject newBubble = Instantiate(gameObject);
 
-    private void Move(Vector3 impulse)
+        if (Impulse)
+            newBubble.GetComponent<Bubble>().Move(_rigidbody.linearVelocity * -10);
+    }
+
+    public void Move(Vector3 impulse)
     {
         _rigidbody.linearVelocity += impulse;
         // Debug.Log("actual: " + _rigidbody.linearVelocity);
@@ -36,6 +43,10 @@ public class Bubble : MonoBehaviour
     public void OnDestroy()
     {
         Debug.Log("Killing bubble, amount: " + Amount);
+
+        if (Amount <= 1)
+            Duplicate(true);
+
         Amount --;
     }
 }

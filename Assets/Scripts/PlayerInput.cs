@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
@@ -6,10 +7,13 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] private float _velocity;
     [SerializeField] private Animator _feetAnimator;
     [SerializeField] private Animator _animator;
+    [SerializeField] private Animator _hitAnimator;
     [SerializeField] private int _playerNum;
     [SerializeField] private Transform _feetTrans;
     [SerializeField] private Transform _batTrans;
     [SerializeField] private GameControl _gameControl;
+    [SerializeField] public bool CanAffect { get; private set; } = true;
+    private Shaker _shaker;
     private Rigidbody _rigidbody;
     private Vector2 _moveDelta = new Vector2(0f, 0f);
     private Vector2 _aimDelta = new Vector2(0f, 0f);
@@ -24,20 +28,21 @@ public class PlayerInput : MonoBehaviour
     private Vector3 _initialPos;
     private int _initialLives;
 
-    private void Awake()
-    {
-    }
+    private bool m_CollisionOccurred;
 
+    private GameObject _star;
     private void Start()
     {
+        _shaker = FindFirstObjectByType<Shaker>();
+
         _initialPos = transform.position;
         _initialLives = Lives;
 
-        GameObject star = _hearts.transform.GetChild(0).gameObject;
+        _star = _hearts.transform.GetChild(0).gameObject;
 
         for ( int i = 1; i < Lives;  i++ )
         {
-            Instantiate(star, _hearts.transform);
+            Instantiate(_star, _hearts.transform);
         }
 
         _rigidbody = GetComponent<Rigidbody>();
@@ -85,23 +90,51 @@ public class PlayerInput : MonoBehaviour
 
     private void Die()
     {
-        _gameControl.AddPoint(_playerNum == 1 ? 2 : _playerNum);
+        _gameControl.AddPoint(_playerNum == 1 ? 2 : 1);
+        Debug.Log("Stupid: " + (_playerNum == 1 ? 2 : 1));
         _animator.SetTrigger("Hurt");
     }
 
     public void Hurt(Vector3 impulse)
     {
+        CanAffect = false;
+
+        
+        _hitAnimator.SetTrigger("Hit");
+        _shaker.Shake(0.4f, 30f);
+
         Lives--;
 
         if (Lives >= 0)
             _hearts.transform.GetChild(Lives).gameObject.SetActive(false);
 
-        Move(impulse * 2f);
+        Move(impulse * 20f);
 
         // Maybe some kind of flash?
 
         if( Lives == 0)
             Die();
+    }
+
+    public void BeginAffect()
+    {
+        StartCoroutine(WaitTillNoCollide());
+    }
+
+    private IEnumerator WaitTillNoCollide()
+    {
+        yield return new WaitUntil(() => ! m_CollisionOccurred);
+        CanAffect = true;
+    }
+
+    public virtual void OnCollisionStay(Collision c)
+    {
+        m_CollisionOccurred = true;
+    }
+
+    public virtual void FixedUpdate()
+    {
+        m_CollisionOccurred = false;
     }
 
     /// <summary>
@@ -129,5 +162,10 @@ public class PlayerInput : MonoBehaviour
     {
         transform.position = _initialPos;
         Lives = _initialLives;
+
+        for ( int i = 1; i < _hearts.transform.childCount;  i++ )
+        {
+            _hearts.transform.GetChild(i).gameObject.SetActive(true);
+        }
     }
 }

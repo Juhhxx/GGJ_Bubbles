@@ -37,7 +37,7 @@ public class Bubble : MonoBehaviour
     {
         PlayerInput player = other.gameObject.GetComponent<PlayerInput>();
 
-        if ( player != null && _rigidbody.linearVelocity.magnitude >= _minimumForceToHit)
+        if ( player != null && _rigidbody.linearVelocity.magnitude >= _minimumForceToHit && player.CanAffect)
         {
             player.Hurt(_rigidbody.linearVelocity);
             Pop();

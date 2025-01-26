@@ -9,8 +9,11 @@ public class Spike : MonoBehaviour
         if (bubble != null)
             bubble.Pop();
 
-        
-    }
+        PlayerInput player = other.gameObject.GetComponent<PlayerInput>();
+
+        if (player != null && player.CanAffect)
+            player.Hurt(player.transform.position - transform.position);
+    }   
     void Start()
     {
         

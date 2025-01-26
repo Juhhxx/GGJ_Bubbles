@@ -1,4 +1,6 @@
+using System;
 using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
@@ -6,7 +8,11 @@ using UnityEngine.SceneManagement;
 
 public class GameControl : MonoBehaviour
 {
-    [SerializeField] private PlayerInput[] _players;
+    [SerializeField] private PlayerInput _player1;
+    [SerializeField] private PlayerInput _player2;
+
+    [SerializeField] public int point1;
+    [SerializeField] public int point2;
     [SerializeField] private int _roundAmount;
     [SerializeField] private Camera _cam;
 
@@ -18,11 +24,6 @@ public class GameControl : MonoBehaviour
     private void Start()
     {
         _scoreObject.GetComponentInChildren<TMP_Text>().text = $"0 - 0";
-
-        foreach (PlayerInput player in _players)
-        {
-            player.Points = 0;
-        }
     }
 
     private void Update()
@@ -31,6 +32,9 @@ public class GameControl : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Escape))
             _pauseObject.SetActive( ! _pauseObject.activeSelf);
+    
+        point1 = _player1.Points;
+        point2 = _player2.Points;
     }
 
     public void Quit()
@@ -46,9 +50,14 @@ public class GameControl : MonoBehaviour
 
     public void AddPoint(int player)
     {
-        _players[player - 1].Points++;
+        Debug.Log("adding to player " + player);
+        
+        if (player == 1)
+            _player1.Points++;
+        else if (player == 2)
+            _player2.Points++;
 
-        _scoreObject.GetComponentInChildren<TMP_Text>().text = $"{_players[0].Points} - {_players[1].Points}";
+        _scoreObject.GetComponentInChildren<TMP_Text>().text = $"{_player1.Points} - {_player2.Points}";
 
         CheckForWin();
         DoReset();
@@ -57,13 +66,10 @@ public class GameControl : MonoBehaviour
     private void CheckForWin()
     {
 
-        foreach(PlayerInput player in _players)
-        {
-            if (player.Points >= _roundAmount)
-            {
-                Win(player);
-            }
-        }
+        if (_player1.Points >= _roundAmount)
+            Win(_player1);
+        if (_player2.Points >= _roundAmount)
+            Win(_player2);
     }
 
     private void Win(PlayerInput winner)
@@ -98,7 +104,7 @@ public class GameControl : MonoBehaviour
 
         Time.timeScale = 1f;
 
-        foreach (PlayerInput player in _players)
-            player.ResetPlayer();
+        _player1.ResetPlayer();
+        _player2.ResetPlayer();
     }
 }

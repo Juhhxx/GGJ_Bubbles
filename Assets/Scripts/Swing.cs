@@ -30,8 +30,8 @@ public class Swing : MonoBehaviour
 
             if (_impact != null)
             {
-                StopCoroutine(_impact);
                 Time.timeScale = 1f;
+                StopCoroutine(_impact);
             }
             
             Debug.Log(_impact == null);
@@ -54,7 +54,7 @@ public class Swing : MonoBehaviour
     {
         Debug.Log("IMPACT");
 
-        Time.timeScale = 0f;
+        Time.timeScale = 0.01f;
 
         for (int i = 0; i < waitFrames; i++)
             yield return _wfs;

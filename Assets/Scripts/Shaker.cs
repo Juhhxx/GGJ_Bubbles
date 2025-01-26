@@ -5,6 +5,7 @@ public class Shaker : MonoBehaviour
     private float duration = 0;
     private float magnitude = 0;
     private bool isShaking;
+    private Vector3 _original;
     void Update()
     {
         if (isShaking)
@@ -14,6 +15,7 @@ public class Shaker : MonoBehaviour
                 duration = 0;
                 magnitude = 0;
                 isShaking = false;
+                transform.position = _original;
                 return;
             }
 
@@ -28,6 +30,9 @@ public class Shaker : MonoBehaviour
 
     public void Shake(float duration, float magnitude)
     {
+        if ( !isShaking )
+            _original = transform.position;
+        
         this.duration = duration;
         this.magnitude = magnitude;
         isShaking = true;

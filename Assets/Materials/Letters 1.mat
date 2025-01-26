@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MainBall
+  m_Name: Letters 1
   m_Shader: {fileID: -6465566751694194690, guid: 4ec8df41f7287e146900e170650457e0, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -54,12 +54,12 @@ Material:
     - _ColorDensity: 1.6
     - _DeformIntensity: 1.05
     - _NoiseScale: 10
-    - _NoiseScale1: 10
+    - _NoiseScale1: 0.88
     - _NoiseScale2: 4.84
     - _NoiseSpeed: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _effectIntensity: 0.437
+    - _effectIntensity: 0.005
     - _intermitency: 1
     m_Colors:
     - _MainColor: {r: 0.990566, g: 0, b: 0.7328972, a: 0}

@@ -55,7 +55,7 @@ public class Bubble : MonoBehaviour
 
         Move(_newDir * _velocity);
 
-        Debug.Log( "change: " + _newDir * _velocity );
+        // Debug.Log( "change: " + _newDir * _velocity );
     }
     public void Duplicate(bool Impulse = false)
     {
@@ -73,7 +73,7 @@ public class Bubble : MonoBehaviour
 
     public void Pop()
     {
-        StartCoroutine(StartPop());
+        // StartCoroutine(StartPop());
     }
 
     private IEnumerator StartPop()

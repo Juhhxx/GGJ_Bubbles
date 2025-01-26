@@ -1,12 +1,12 @@
 using System.Collections;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameControl : MonoBehaviour
 {
-    private int[] _points;
-    [SerializeField] private GameObject[] _players;
+    [SerializeField] private PlayerInput[] _players;
     [SerializeField] private int _roundAmount;
     [SerializeField] private Camera _cam;
 
@@ -19,11 +19,9 @@ public class GameControl : MonoBehaviour
     {
         _scoreObject.GetComponentInChildren<TMP_Text>().text = $"0 - 0";
 
-        _points = new int[_players.Length];
-
-        for(int i = 0; i < _points.Length; i++)
+        foreach (PlayerInput player in _players)
         {
-            _points[i] = 0;
+            player.Points = 0;
         }
     }
 
@@ -46,50 +44,61 @@ public class GameControl : MonoBehaviour
         SceneManager.LoadScene(scene);
     }
 
-    public void AddPoint(int playerNum)
+    public void AddPoint(int player)
     {
-        if (playerNum-1 > _points.Length) return;
+        _players[player - 1].Points++;
 
-        _points[playerNum-1]++;
-
-        _scoreObject.GetComponentInChildren<TMP_Text>().text = $"{_points[0]} - {_points[1]}";
+        _scoreObject.GetComponentInChildren<TMP_Text>().text = $"{_players[0].Points} - {_players[1].Points}";
 
         CheckForWin();
+        DoReset();
     }
 
     private void CheckForWin()
     {
 
-        for(int i = 0; i < _points.Length; i++)
+        foreach(PlayerInput player in _players)
         {
-            if (_points[i] >= _roundAmount)
+            if (player.Points >= _roundAmount)
             {
-                Win(i);
+                Win(player);
             }
         }
     }
 
-    private void Win(int winner)
+    private void Win(PlayerInput winner)
     {
         StartCoroutine(StartWin(winner));
-
     }
-    private IEnumerator StartWin(int winner)
+    private IEnumerator StartWin(PlayerInput winner)
     {
         _winObject.SetActive(true);
 
-        _winObject.transform.GetChild(0).GetComponent<TMP_Text>().text = $"Player {winner} wins!";
+        _winObject.GetComponentInChildren<TMP_Text>().text = $"Player {winner.PlayerNumber} wins!";
 
-        while ( Vector3.Distance(_cam.transform.position, _players[(_players.Length - winner ) -1].transform.position + new Vector3(0f, 0f, 1f)) < 0.01f )
+        while ( Vector3.Distance(_cam.transform.position, winner.transform.position + new Vector3(0f, 0f, 1f)) < 0.01f )
         {
             _cam.transform.position = Vector3.Lerp(
                 _cam.transform.position,
-                _players[(_players.Length - winner ) -1].transform.position + new Vector3(0f, 0f, 1f),
+                winner.transform.position + new Vector3(0f, 0f, 1f),
                 0.65f);
 
             yield return null;
         }
 
         Time.timeScale = 0.01f;
+    }
+    private void DoReset()
+    {
+        StartCoroutine(Reset());
+    }
+    private IEnumerator Reset()
+    {
+        yield return new WaitForSeconds(1f);
+
+        Time.timeScale = 1f;
+
+        foreach (PlayerInput player in _players)
+            player.ResetPlayer();
     }
 }

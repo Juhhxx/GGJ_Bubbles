@@ -35,7 +35,7 @@ public class Bubble : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        PlayerInput player = other.GetComponent<PlayerInput>();
+        PlayerInput player = other.gameObject.GetComponent<PlayerInput>();
 
         if ( player != null && _rigidbody.linearVelocity.magnitude >= _minimumForceToHit)
         {

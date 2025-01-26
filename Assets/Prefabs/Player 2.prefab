@@ -27,7 +27,7 @@ PrefabInstance:
     - target: {fileID: 5764008632761154783, guid: 47b15c25b86f30b46a3aba2237be5b5c, type: 3}
       propertyPath: _batTrans
       value: 
-      objectReference: {fileID: 982156146572963346}
+      objectReference: {fileID: 1396773046862165213}
     - target: {fileID: 5764008632761154783, guid: 47b15c25b86f30b46a3aba2237be5b5c, type: 3}
       propertyPath: _velocity
       value: 100
@@ -40,9 +40,13 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6856712125534947775, guid: 47b15c25b86f30b46a3aba2237be5b5c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 70d5c2aa69acfc74e80a3a5334538ae4, type: 3}
     - target: {fileID: 7199097749231114809, guid: 47b15c25b86f30b46a3aba2237be5b5c, type: 3}
       propertyPath: m_Name
-      value: Player 2 Variant
+      value: Player 2
       objectReference: {fileID: 0}
     - target: {fileID: 8796940238932289740, guid: 47b15c25b86f30b46a3aba2237be5b5c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -89,8 +93,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47b15c25b86f30b46a3aba2237be5b5c, type: 3}
---- !u!4 &982156146572963346 stripped
+--- !u!4 &1396773046862165213 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8796940238932289740, guid: 47b15c25b86f30b46a3aba2237be5b5c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7266002652236591619, guid: 47b15c25b86f30b46a3aba2237be5b5c, type: 3}
   m_PrefabInstance: {fileID: 8625610745454036702}
   m_PrefabAsset: {fileID: 0}

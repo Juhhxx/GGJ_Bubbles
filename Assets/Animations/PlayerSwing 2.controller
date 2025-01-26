@@ -76,7 +76,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5d6318b902921694d89e0335c367712d, type: 2}
+  m_Motion: {fileID: 7400000, guid: a1dd7ce11080da149afa13b1bd7d8a80, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -115,7 +115,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Swing
-  m_Speed: 1
+  m_Speed: 2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -6782640478935853601}
@@ -128,7 +128,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5f09778899bc4a64997c149ef045733d, type: 2}
+  m_Motion: {fileID: 7400000, guid: 3420dcd807f079f4ebb703a73dc3e90c, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -148,7 +148,7 @@ AnimatorStateMachine:
     m_Position: {x: 540, y: 10, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7837176579447549441}
-    m_Position: {x: 300, y: 10, z: 0}
+    m_Position: {x: 300, y: 20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1952127652209536270}
     m_Position: {x: 330, y: 120, z: 0}
@@ -184,7 +184,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 04c8cc5893fc0dc42a3cc4d36b79a143, type: 2}
+  m_Motion: {fileID: 7400000, guid: 65f46ed15cda16340b3a247ab905a42a, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

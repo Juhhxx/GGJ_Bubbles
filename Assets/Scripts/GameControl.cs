@@ -80,27 +80,34 @@ public class GameControl : MonoBehaviour
 
     private void Win(PlayerInput winner)
     {
+        Debug.Log("Start Winning");
         StartCoroutine(StartWin(winner));
     }
     private IEnumerator StartWin(PlayerInput winner)
     {
+        _player1.enabled = false;
+        _player2.enabled = false;
+
         _winObject.SetActive(true);
 
         _winObject.GetComponentInChildren<TMP_Text>().text = $"Player {winner.PlayerNumber} wins!";
 
-        while ( Vector3.Distance(_cam.transform.position, winner.transform.position + new Vector3(0f, 0f, 1f)) < 0.01f )
-        {
-            Debug.Log("dis: " + Vector3.Distance(_cam.transform.position, winner.transform.position + new Vector3(0f, 0f, 1f)));
-            _cam.transform.position = Vector3.Lerp(
-                _cam.transform.position,
-                winner.transform.position + new Vector3(0f, 0f, 1f),
-                0.65f);
-
-            yield return null;
-        }
+        Debug.Log("dis: " + Vector3.Distance(_cam.transform.position, winner.transform.position + new Vector3(0f, 80f, 1f)));
 
         Time.timeScale = 0.1f;
         Time.fixedDeltaTime = 0.02f * Time.timeScale;
+
+        while ( Vector3.Distance(_cam.transform.position, winner.transform.position + new Vector3(0f, 80f, 0f)) > 0.1f )
+        {
+            Debug.Log("dis: " + Vector3.Distance(_cam.transform.position, winner.transform.position + new Vector3(0f, 80f, 1f)));
+
+            _cam.transform.position = Vector3.Lerp(
+                _cam.transform.position,
+                winner.transform.position + new Vector3(0f, 80f, 1f),
+                0.05f);
+
+            yield return null;
+        }
     }
     private void DoReset()
     {

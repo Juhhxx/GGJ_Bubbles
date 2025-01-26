@@ -58,22 +58,14 @@ public class GameControl : MonoBehaviour
 
     private void CheckForWin()
     {
-        int currentWinner = 0;
-        int currentPoints = 0;
-
-        // Assume always odd rounds
 
         for(int i = 0; i < _points.Length; i++)
         {
-            if (_points[i] > currentPoints)
+            if (_points[i] > _roundAmount)
             {
-                currentWinner = i;
-                currentPoints = _points[i];
+                Win(i);
             }
         }
-
-        if (currentPoints >=_roundAmount/2)
-            Win(currentWinner);
     }
 
     private void Win(int winner)

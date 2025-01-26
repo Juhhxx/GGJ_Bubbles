@@ -9,24 +9,30 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] private int _playerNum;
     [SerializeField] private Transform _feetTrans;
     [SerializeField] private Transform _batTrans;
+    [SerializeField] private GameControl _gameControl;
     private Rigidbody _rigidbody;
     private Vector2 _moveDelta = new Vector2(0f, 0f);
     private Vector2 _aimDelta = new Vector2(0f, 0f);
     private Vector3 _move = new Vector3(0f, 0f, 0f);
     private Vector3 _aim = new Vector3(0f, 0f, 0f);
 
-    [SerializeField] public int Lives { get; private set; }
+    [field:SerializeField] public int Lives { get; private set; }
+    public int Points { get; set; }
+    public int PlayerNumber => _playerNum;
     [SerializeField] public GameObject _hearts;
 
-    private GameControl _gameControl;
+    private Vector3 _initialPos;
+    private int _initialLives;
 
     private void Awake()
     {
-        _gameControl = FindFirstObjectByType<GameControl>();
     }
 
     private void Start()
     {
+        _initialPos = transform.position;
+        _initialLives = Lives;
+
         GameObject star = _hearts.transform.GetChild(0).gameObject;
 
         for ( int i = 1; i < Lives;  i++ )
@@ -51,8 +57,6 @@ public class PlayerInput : MonoBehaviour
 
     private void DoMovemet()
     {
-        _move = _rigidbody.linearVelocity;
-
         _moveDelta.x = Input.GetAxis("MoveX" + _playerNum);
         _moveDelta.y = Input.GetAxis("MoveY" + _playerNum);
 
@@ -82,20 +86,21 @@ public class PlayerInput : MonoBehaviour
     private void Die()
     {
         _gameControl.AddPoint(_playerNum == 1 ? 2 : _playerNum);
+        _animator.SetTrigger("Hurt");
     }
 
     public void Hurt(Vector3 impulse)
     {
         Lives--;
 
-        _hearts.transform.GetChild(Lives).gameObject.SetActive(false);
+        if (Lives >= 0)
+            _hearts.transform.GetChild(Lives).gameObject.SetActive(false);
 
         Move(impulse * 2f);
 
         // Maybe some kind of flash?
-        _animator.SetTrigger("Hurt");
 
-        if( Lives <= 0)
+        if( Lives == 0)
             Die();
     }
 
@@ -118,5 +123,11 @@ public class PlayerInput : MonoBehaviour
     {
         Vector3 actual = transform.position - lookTo;
         trans.LookAt(actual);
+    }
+
+    public void ResetPlayer()
+    {
+        transform.position = _initialPos;
+        Lives = _initialLives;
     }
 }

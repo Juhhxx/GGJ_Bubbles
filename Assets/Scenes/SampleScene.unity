@@ -3205,7 +3205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f145d8346419aa949ad86d7dcbb7af6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _velocity: 50
+  _velocity: 80
   _feetAnimator: {fileID: 174789889}
   _animator: {fileID: 958571061}
   _playerNum: 1
@@ -3308,6 +3308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 966265808}
   - component: {fileID: 966265809}
+  - component: {fileID: 966265810}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
@@ -3345,12 +3346,26 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 31.780354, y: 31.102242, z: 12.75}
   m_Center: {x: 10.290837, y: 10.349029, z: -0.00000640856}
+--- !u!114 &966265810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966265807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6ecc70e79ab9c14096c7a75b0f577b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _batTrans: {fileID: 313638253}
+  _force: 35
 --- !u!1001 &999231257
 PrefabInstance:
   m_ObjectHideFlags: 0

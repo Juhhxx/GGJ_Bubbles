@@ -87,11 +87,11 @@ public class GameControl : MonoBehaviour
 
         _winObject.GetComponentInChildren<TMP_Text>().text = $"Player {winner} wins!";
 
-        while ( Vector3.Distance(_cam.transform.position, _players[winner-1].transform.position + new Vector3(0f, 0f, 1f)) < 0.01f )
+        while ( Vector3.Distance(_cam.transform.position, _players[(_players.Length - winner ) -1].transform.position + new Vector3(0f, 0f, 1f)) < 0.01f )
         {
             _cam.transform.position = Vector3.Lerp(
                 _cam.transform.position,
-                _players[winner-1].transform.position + new Vector3(0f, 0f, 1f),
+                _players[(_players.Length - winner ) -1].transform.position + new Vector3(0f, 0f, 1f),
                 0.65f);
 
             yield return null;

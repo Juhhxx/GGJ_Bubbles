@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
@@ -5,7 +6,7 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] private float _velocity;
     [SerializeField] private Animator _feetAnimator;
     [SerializeField] private Animator _animator;
-    [SerializeField] private string _playerNum;
+    [SerializeField] private int _playerNum;
     [SerializeField] private Transform _feetTrans;
     [SerializeField] private Transform _batTrans;
     private Rigidbody _rigidbody;
@@ -13,6 +14,13 @@ public class PlayerInput : MonoBehaviour
     private Vector2 _aimDelta = new Vector2(0f, 0f);
     private Vector3 _move = new Vector3(0f, 0f, 0f);
     private Vector3 _aim = new Vector3(0f, 0f, 0f);
+
+    private GameControl _gameControl;
+
+    private void Awake()
+    {
+        _gameControl = FindFirstObjectByType<GameControl>();
+    }
 
     private void Start()
     {
@@ -67,6 +75,8 @@ public class PlayerInput : MonoBehaviour
 
         // Maybe some kind of flash?
         _animator.SetTrigger("Hurt");
+
+        _gameControl.AddPoint(_playerNum == 1 ? 2 : _playerNum);
     }
 
     /// <summary>

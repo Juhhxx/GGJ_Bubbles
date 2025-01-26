@@ -11,6 +11,9 @@ public class GameControl : MonoBehaviour
     [SerializeField] private PlayerInput _player1;
     [SerializeField] private PlayerInput _player2;
 
+    [SerializeField] private GameObject _spikes;
+    [SerializeField] private GameObject _bounce;
+
     [SerializeField] public int point1;
     [SerializeField] public int point2;
     [SerializeField] private int _roundAmount;
@@ -32,6 +35,7 @@ public class GameControl : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.Escape))
         {
+            Debug.Log("Activate pause");
             _pauseObject.SetActive( ! _pauseObject.activeSelf);
 
             Time.timeScale = _pauseObject.activeSelf ? 0.1f : 1f;
@@ -62,6 +66,13 @@ public class GameControl : MonoBehaviour
             _player1.Points++;
         else if (player == 2)
             _player2.Points++;
+        
+        if (_player2.Points + _player1.Points == 1)
+            _bounce.SetActive(true);
+
+        if (_player2.Points + _player1.Points == 2)
+            _spikes.SetActive(true);
+
 
         _scoreObject.GetComponentInChildren<TMP_Text>().text = $"{_player1.Points} - {_player2.Points}";
 

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1127562974676403560}
   - component: {fileID: 3130101356755909478}
   m_Layer: 0
-  m_Name: Spike
+  m_Name: Bounce
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

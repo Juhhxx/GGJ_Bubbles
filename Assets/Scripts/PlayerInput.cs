@@ -63,7 +63,7 @@ public class PlayerInput : MonoBehaviour
 
     public void Hurt(Vector3 impulse)
     {
-        Move(impulse * 3f);
+        Move(impulse * 2f);
 
         // Maybe some kind of flash?
         _animator.SetTrigger("Hurt");

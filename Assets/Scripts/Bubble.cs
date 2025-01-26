@@ -12,17 +12,16 @@ public class Bubble : MonoBehaviour
     [SerializeField] private float _minimumForceToHit;
     public static int? Amount { get; private set; }
     private Vector3 _newDir = new Vector3(0f, 0f, 0f);
-    private void Awake()
-    {
-        if (Amount == null)
-            Amount = 1;
-        Amount ++;
-
-        _collider.enabled = false;
-    }
 
     private void Start()
     {
+        if (Amount == null)
+            Amount = 1;
+            
+        Amount ++;
+
+        _collider.enabled = false;
+
         StartCoroutine(CommenceStart());
     }
 
@@ -81,7 +80,7 @@ public class Bubble : MonoBehaviour
         Debug.Log("Killing bubble, amount: " + Amount);
 
         if (Amount <= 1)
-            Duplicate(true);
+            // Duplicate(true);
 
         Amount --;
 

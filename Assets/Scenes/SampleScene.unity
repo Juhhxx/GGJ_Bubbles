@@ -1710,6 +1710,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2062253014695600398, guid: c7a3dc9143d1f9c4dbbae8b2f436348d, type: 3}
+      propertyPath: _particles
+      value: 
+      objectReference: {fileID: 1190979972}
     - target: {fileID: 4918010948142460370, guid: c7a3dc9143d1f9c4dbbae8b2f436348d, type: 3}
       propertyPath: m_Name
       value: MainBall
@@ -3702,6 +3706,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5937638260078238654, guid: bf8e32a97cb17874bb37f2d9cbc4e366, type: 3}
   m_PrefabInstance: {fileID: 1190861808}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1190979972 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 6363948060925627793, guid: c7a3dc9143d1f9c4dbbae8b2f436348d, type: 3}
+  m_PrefabInstance: {fileID: 350366090}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1199475632
 PrefabInstance:

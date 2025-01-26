@@ -10,6 +10,7 @@ public class Bubble : MonoBehaviour
     [SerializeField] private Collider _collider;
     [SerializeField] private float _maxIdleVelocity;
     [SerializeField] private float _minimumForceToHit;
+    [SerializeField] private ParticleSystem _particles;
     public static int? Amount { get; private set; }
     private Vector3 _newDir = new Vector3(0f, 0f, 0f);
 
@@ -17,7 +18,7 @@ public class Bubble : MonoBehaviour
     {
         if (Amount == null)
             Amount = 1;
-            
+
         Amount ++;
 
         _collider.enabled = false;
@@ -86,6 +87,8 @@ public class Bubble : MonoBehaviour
 
         Renderer renderer = GetComponentInChildren<Renderer>();
 
+        _particles.gameObject.SetActive(true);
+
         for (int i = 0; i < 7; i++)
         {
             renderer.enabled = ! renderer.enabled;
@@ -94,11 +97,6 @@ public class Bubble : MonoBehaviour
 
         renderer.enabled = false;
         _collider.enabled = false;
-
-        ParticleSystem particles = GetComponentInChildren<ParticleSystem>();
-
-        if (particles != null)
-            particles.gameObject.SetActive(true);
 
         yield return new WaitForSeconds(5f);
 

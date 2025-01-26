@@ -10,12 +10,13 @@ public class Shaker : MonoBehaviour
     {
         if (isShaking)
         {
+            transform.position = _original;
+            
             if ( duration <=  0 )
             {
                 duration = 0;
                 magnitude = 0;
                 isShaking = false;
-                transform.position = _original;
                 return;
             }
 

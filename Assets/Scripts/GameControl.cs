@@ -31,7 +31,12 @@ public class GameControl : MonoBehaviour
         if (_winObject.activeSelf) return;
 
         if (Input.GetKeyUp(KeyCode.Escape))
+        {
             _pauseObject.SetActive( ! _pauseObject.activeSelf);
+
+            Time.timeScale = _pauseObject.activeSelf ? 0.1f : 1f;
+            Time.fixedDeltaTime = _pauseObject.activeSelf ? 0.02f * Time.timeScale : 0.02f;
+        }
     
         point1 = _player1.Points;
         point2 = _player2.Points;
@@ -45,13 +50,14 @@ public class GameControl : MonoBehaviour
     public void ChangeScene(string scene)
     {
         Time.timeScale = 1f;
+        Time.fixedDeltaTime = 0.02f;
         SceneManager.LoadScene(scene);
     }
 
     public void AddPoint(int player)
     {
         Debug.Log("adding to player " + player);
-        
+
         if (player == 1)
             _player1.Points++;
         else if (player == 2)
@@ -84,6 +90,7 @@ public class GameControl : MonoBehaviour
 
         while ( Vector3.Distance(_cam.transform.position, winner.transform.position + new Vector3(0f, 0f, 1f)) < 0.01f )
         {
+            Debug.Log("dis: " + Vector3.Distance(_cam.transform.position, winner.transform.position + new Vector3(0f, 0f, 1f)));
             _cam.transform.position = Vector3.Lerp(
                 _cam.transform.position,
                 winner.transform.position + new Vector3(0f, 0f, 1f),
@@ -92,7 +99,8 @@ public class GameControl : MonoBehaviour
             yield return null;
         }
 
-        Time.timeScale = 0.01f;
+        Time.timeScale = 0.1f;
+        Time.fixedDeltaTime = 0.02f * Time.timeScale;
     }
     private void DoReset()
     {
@@ -103,6 +111,7 @@ public class GameControl : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         Time.timeScale = 1f;
+        Time.fixedDeltaTime = 0.02f;
 
         _player1.ResetPlayer();
         _player2.ResetPlayer();

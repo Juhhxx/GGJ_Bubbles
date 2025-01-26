@@ -101,7 +101,7 @@ public class PlayerInput : MonoBehaviour
 
         
         _hitAnimator.SetTrigger("Hit");
-        _shaker.Shake(0.4f, 30f);
+        _shaker.Shake(0.4f, 45f);
 
         Lives--;
 
@@ -163,7 +163,7 @@ public class PlayerInput : MonoBehaviour
         transform.position = _initialPos;
         Lives = _initialLives;
 
-        for ( int i = 1; i < _hearts.transform.childCount;  i++ )
+        for ( int i = 0; i < _hearts.transform.childCount;  i++ )
         {
             _hearts.transform.GetChild(i).gameObject.SetActive(true);
         }

@@ -7,36 +7,41 @@ public class Swing : MonoBehaviour
     [SerializeField] private Transform _batTrans;
     [SerializeField] private float _force;
     [SerializeField] private int _impactTime;
+    [SerializeField] private GameObject _invert;
     private YieldInstruction _wfs;
     private Bubble _bubble;
     private PlayerInput _player;
     private Coroutine _impact;
+    private Shaker _shaker;
 
     private void Start()
     {
+        _shaker = FindFirstObjectByType<Shaker>();
         _wfs = new WaitForEndOfFrame();
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (!other.isTrigger)
-            return;
+        // if (!other.isTrigger)
+        //     return;
 
         _bubble = other.gameObject.GetComponentInParent<Bubble>();
         // _player = other.gameObject.GetComponent<PlayerInput>();
 
+        // Debug.Log("triggered start");
+
         if (_bubble != null)
         {
-            Debug.Log(_impact == null);
+            // Debug.Log("triggered");
 
-            if (_impact != null)
+            // Debug.Log(_impact == null);
+
+            if (_impact == null)
             {
-                Time.timeScale = 1f;
-                StopCoroutine(_impact);
+                Debug.Log("Starting");
+                _impact = StartCoroutine(Impact(_impactTime));
             }
             
-            Debug.Log(_impact == null);
-            
-            _impact = StartCoroutine(Impact(_impactTime));
+            // Debug.Log(_impact == null);
         }
     }
     private void OnTriggerStay(Collider other)
@@ -44,8 +49,11 @@ public class Swing : MonoBehaviour
         _bubble = other.gameObject.GetComponentInParent<Bubble>();
         // _player = other.gameObject.GetComponent<PlayerInput>();
 
+        // Debug.Log("staying start");
+
         if (_bubble != null)
         {
+            // Debug.Log("staying");
             ApplyForce();
         }
     }
@@ -54,16 +62,29 @@ public class Swing : MonoBehaviour
     {
         Debug.Log("IMPACT");
 
-        Time.timeScale = 0.01f;
+        Time.timeScale = 0.1f;
+        Time.fixedDeltaTime = 0.02f * Time.timeScale;
 
-        for (int i = 0; i < waitFrames; i++)
-            yield return _wfs;
-        
+
+        Debug.Log("impact frame ");
+
+        // _invert.SetActive(true);
+
+        yield return new WaitForSecondsRealtime(0.05f);
+
+        _invert.SetActive(false);
+
+        yield return new WaitForSecondsRealtime(0.15f);
+
+        // Restore time scale and fixed delta time
         Time.timeScale = 1f;
+        Time.fixedDeltaTime = 0.02f;
+        
+        _shaker.Shake(0.2f, 30f);
 
         Debug.Log("IMPACT END");
 
-        _impact = null;
+        _impact = null; // Reset the coroutine reference
     }
     private void ApplyForce()
     {

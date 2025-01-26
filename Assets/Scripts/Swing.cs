@@ -6,15 +6,15 @@ public class Swing : MonoBehaviour
 {
     [SerializeField] private Transform _batTrans;
     [SerializeField] private float _force;
-    [SerializeField] private float _impactTime;
-    private WaitForSecondsRealtime _wfs;
+    [SerializeField] private int _impactTime;
+    private YieldInstruction _wfs;
     private Bubble _bubble;
     private PlayerInput _player;
     private Coroutine _impact;
 
     private void Start()
     {
-        _wfs = new WaitForSecondsRealtime(_impactTime);
+        _wfs = new WaitForEndOfFrame();
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -29,11 +29,14 @@ public class Swing : MonoBehaviour
             Debug.Log(_impact == null);
 
             if (_impact != null)
+            {
                 StopCoroutine(_impact);
+                Time.timeScale = 1f;
+            }
             
             Debug.Log(_impact == null);
             
-            _impact = StartCoroutine(Impact(5));
+            _impact = StartCoroutine(Impact(_impactTime));
         }
     }
     private void OnTriggerStay(Collider other)
@@ -53,11 +56,14 @@ public class Swing : MonoBehaviour
 
         Time.timeScale = 0f;
 
-        yield return _wfs;
+        for (int i = 0; i < waitFrames; i++)
+            yield return _wfs;
         
         Time.timeScale = 1f;
 
         Debug.Log("IMPACT END");
+
+        _impact = null;
     }
     private void ApplyForce()
     {

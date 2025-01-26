@@ -99,7 +99,7 @@ Animator:
   m_GameObject: {fileID: 1427351161976003227}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e9d349d6d52ce4f47bcb6b11c10e30ac, type: 2}
+  m_Controller: {fileID: 9100000, guid: ed044affb696eed4ab7b3d6992f264ac, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -473,7 +473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _batTrans: {fileID: 5827849345413731677}
   _force: 50
-  _impactTime: 0.1
+  _impactTime: 5
 --- !u!1 &7199097749231114809
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,7 +570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f145d8346419aa949ad86d7dcbb7af6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _velocity: 80
+  _velocity: 100
   _feetAnimator: {fileID: 4598228958195131162}
   _animator: {fileID: 6381737508489062678}
   _playerNum: 1

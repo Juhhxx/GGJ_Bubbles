@@ -36,6 +36,10 @@ PrefabInstance:
       propertyPath: _playerNum
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6381737508489062678, guid: 47b15c25b86f30b46a3aba2237be5b5c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e9d349d6d52ce4f47bcb6b11c10e30ac, type: 2}
     - target: {fileID: 6784708403152245295, guid: 47b15c25b86f30b46a3aba2237be5b5c, type: 3}
       propertyPath: m_IsActive
       value: 0

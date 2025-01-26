@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Buttons 2
+  m_Name: Buttons 3
   m_Shader: {fileID: -6465566751694194690, guid: 4ec8df41f7287e146900e170650457e0, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

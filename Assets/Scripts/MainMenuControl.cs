@@ -5,13 +5,11 @@ public class MainMenuControl : MonoBehaviour
 {
     [SerializeField] private GameObject[] _buttonsActivate;
     [SerializeField] private GameObject[] _buttonsDeactivate;
-    [SerializeField] private Animator[] _buttonsAnimators;
-    [SerializeField] private GameObject _impact;
+    [SerializeField] private Animator _animator;
     private int _button;
 
     private void Start()
     {
-        _impact.SetActive(false);
 
         _button = 0;
         UpdateButtons();
@@ -21,7 +19,8 @@ public class MainMenuControl : MonoBehaviour
     {
         if (Input.GetButtonUp("Fire1") || Input.GetButtonUp("Fire2"))
         {
-            _buttonsAnimators[_button].Play("Click");
+            if (_button == 0) _animator.SetTrigger("Play");
+            if (_button == 1) _animator.SetTrigger("Quit");
         }
 
 
@@ -30,7 +29,7 @@ public class MainMenuControl : MonoBehaviour
             _button --;
             UpdateButtons();
         }
-        else if (Input.GetAxis("MoveX1") < 0.9f || Input.GetAxis("MoveX2") < 0.9f)
+        else if (Input.GetAxis("MoveX1") < -0.9f || Input.GetAxis("MoveX2") < -0.9f)
         {
             _button ++;
             UpdateButtons();

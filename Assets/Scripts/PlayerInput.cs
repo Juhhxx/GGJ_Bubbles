@@ -15,6 +15,9 @@ public class PlayerInput : MonoBehaviour
     private Vector3 _move = new Vector3(0f, 0f, 0f);
     private Vector3 _aim = new Vector3(0f, 0f, 0f);
 
+    [SerializeField] public int Lives { get; private set; }
+    [SerializeField] public GameObject _hearts;
+
     private GameControl _gameControl;
 
     private void Awake()
@@ -24,6 +27,13 @@ public class PlayerInput : MonoBehaviour
 
     private void Start()
     {
+        GameObject star = _hearts.transform.GetChild(0).gameObject;
+
+        for ( int i = 1; i < Lives;  i++ )
+        {
+            Instantiate(star, _hearts.transform);
+        }
+
         _rigidbody = GetComponent<Rigidbody>();
         _aim.y = transform.position.y;
     }
@@ -69,14 +79,24 @@ public class PlayerInput : MonoBehaviour
         Look(_batTrans, _aim);
     }
 
+    private void Die()
+    {
+        _gameControl.AddPoint(_playerNum == 1 ? 2 : _playerNum);
+    }
+
     public void Hurt(Vector3 impulse)
     {
+        Lives--;
+
+        _hearts.transform.GetChild(Lives).gameObject.SetActive(false);
+
         Move(impulse * 2f);
 
         // Maybe some kind of flash?
         _animator.SetTrigger("Hurt");
 
-        _gameControl.AddPoint(_playerNum == 1 ? 2 : _playerNum);
+        if( Lives <= 0)
+            Die();
     }
 
     /// <summary>

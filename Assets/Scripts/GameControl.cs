@@ -62,7 +62,7 @@ public class GameControl : MonoBehaviour
 
         for(int i = 0; i < _points.Length; i++)
         {
-            if (_points[i] > _roundAmount)
+            if (_points[i] >= _roundAmount)
             {
                 Win(i);
             }
@@ -78,7 +78,7 @@ public class GameControl : MonoBehaviour
     {
         _winObject.SetActive(true);
 
-        _winObject.GetComponentInChildren<TMP_Text>().text = $"Player {winner} wins!";
+        _winObject.transform.GetChild(0).GetComponent<TMP_Text>().text = $"Player {winner} wins!";
 
         while ( Vector3.Distance(_cam.transform.position, _players[(_players.Length - winner ) -1].transform.position + new Vector3(0f, 0f, 1f)) < 0.01f )
         {

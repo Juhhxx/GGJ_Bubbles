@@ -37,7 +37,7 @@ public class GameControl : MonoBehaviour
 
     public void Quit()
     {
-        // Olá julia corrige isto pls
+        Application.Quit();
     }
 
     public void ChangeScene(string scene)

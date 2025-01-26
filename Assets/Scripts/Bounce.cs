@@ -9,7 +9,7 @@ public class Bounce : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void OnCollisionStay(Collider other)
+    private void OnCollisionStay(UnityEngine.Collision other)
     {
         Rigidbody rigidbody = other.gameObject.GetComponentInParent<Rigidbody>();
 

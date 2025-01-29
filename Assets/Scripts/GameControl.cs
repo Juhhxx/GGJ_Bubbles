@@ -38,8 +38,11 @@ public class GameControl : MonoBehaviour
             Debug.Log("Activate pause");
             _pauseObject.SetActive( ! _pauseObject.activeSelf);
 
-            Time.timeScale = _pauseObject.activeSelf ? 0.1f : 1f;
+            Time.timeScale = _pauseObject.activeSelf ? 0f : 1f;
             Time.fixedDeltaTime = _pauseObject.activeSelf ? 0.02f * Time.timeScale : 0.02f;
+
+            _player1.enabled = ! _pauseObject.activeSelf;
+            _player2.enabled = ! _pauseObject.activeSelf;
         }
     
         point1 = _player1.Points;
@@ -101,7 +104,7 @@ public class GameControl : MonoBehaviour
 
         _winObject.SetActive(true);
 
-        _winObject.GetComponentInChildren<TMP_Text>().text = $"Player {winner.PlayerNumber} wins!";
+        // _winObject.GetComponentInChildren<TMP_Text>().text = $"Player {winner.PlayerNumber} wins!";
 
         Debug.Log("dis: " + Vector3.Distance(_cam.transform.position, winner.transform.position + new Vector3(0f, 80f, 1f)));
 

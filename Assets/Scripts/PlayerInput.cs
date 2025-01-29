@@ -31,6 +31,10 @@ public class PlayerInput : MonoBehaviour
     private bool m_CollisionOccurred;
 
     private GameObject _star;
+
+
+    private Vector3 _baseVelocity = Vector3.zero;
+    private Vector3 _impulseVelocity = Vector3.zero;
     private void Start()
     {
         _shaker = FindFirstObjectByType<Shaker>();
@@ -50,7 +54,7 @@ public class PlayerInput : MonoBehaviour
     }
     private void Update()
     {
-        DoMovemet();
+        DoMovement();
         DoAim();
 
         if (Input.GetButtonDown("Fire" + _playerNum))
@@ -60,17 +64,24 @@ public class PlayerInput : MonoBehaviour
             _animator.SetTrigger("Swing");
     }
 
-    private void DoMovemet()
+    public void FixedUpdate()
+    {
+        m_CollisionOccurred = false;
+
+        _rigidbody.linearVelocity = _baseVelocity + _impulseVelocity;
+
+        _impulseVelocity = Vector3.Lerp(_impulseVelocity, Vector3.zero, Time.fixedDeltaTime * 10f);
+    }
+
+    private void DoMovement()
     {
         _moveDelta.x = Input.GetAxis("MoveX" + _playerNum);
         _moveDelta.y = Input.GetAxis("MoveY" + _playerNum);
 
-        _move.x = _velocity * _moveDelta.x;
-        _move.z = _velocity * _moveDelta.y;
+        // Calculate base velocity from input
+        _baseVelocity.x = _velocity * _moveDelta.x;
+        _baseVelocity.z = _velocity * _moveDelta.y;
 
-        // Debug.Log("mov: " + _move + "     velocity: " + _velocity + "    _delta: " + _moveDelta);
-
-        Move(_move);
         Look(_feetTrans, _move);
 
         _feetAnimator.SetBool("IsMoving", _moveDelta != Vector2.zero);
@@ -108,7 +119,7 @@ public class PlayerInput : MonoBehaviour
         if (Lives >= 0)
             _hearts.transform.GetChild(Lives).gameObject.SetActive(false);
 
-        Move(impulse * 20f);
+        Move(impulse);
 
         // Maybe some kind of flash?
 
@@ -132,11 +143,6 @@ public class PlayerInput : MonoBehaviour
         m_CollisionOccurred = true;
     }
 
-    public virtual void FixedUpdate()
-    {
-        m_CollisionOccurred = false;
-    }
-
     /// <summary>
     /// public pq podemos querer adicionar algum movimento rapido/impacto ao player e fazer com que ele tenha
     //7 controle sobre isso parece me justo
@@ -145,7 +151,7 @@ public class PlayerInput : MonoBehaviour
     public void Move(Vector3 force)
     {
         // And therefore talvez movimento com fisica seja melhor?
-        _rigidbody.linearVelocity = force;
+        _impulseVelocity += force;
     }
 
     /// <summary>

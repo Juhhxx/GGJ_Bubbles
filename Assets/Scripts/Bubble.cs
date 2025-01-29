@@ -21,7 +21,7 @@ public class Bubble : MonoBehaviour
 
         Amount ++;
 
-        _collider.enabled = false;
+        // _collider.enabled = false;
 
         StartCoroutine(CommenceStart());
     }
@@ -30,7 +30,12 @@ public class Bubble : MonoBehaviour
     {
         yield return new WaitForSeconds(1.5f);
 
-        _collider.enabled = true;
+        // _collider.enabled = true;
+    }
+
+    private void FixedUpdate()
+    {
+        _moved = false;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -42,7 +47,11 @@ public class Bubble : MonoBehaviour
             player.Hurt(_rigidbody.linearVelocity);
             Pop();
         }
+
+        _moved = true;
     }
+
+    private Coroutine _balloon;
 
     private void Update()
     {
@@ -55,8 +64,52 @@ public class Bubble : MonoBehaviour
 
         Move(_newDir * _velocity);
 
+        if  ((_rigidbody.linearVelocity.magnitude >= 299f) || _bood)
+        {
+            _bood = true;
+            Debug.Log("boop");
+
+            if (_balloon == null) _balloon = StartCoroutine(Balloon());
+        }
+
         // Debug.Log( "change: " + _newDir * _velocity );
     }
+
+    private IEnumerator Balloon()
+    {
+        float min = 300f;
+        float max = 450f;
+        float initMax = _maxIdleVelocity;
+        _maxIdleVelocity *= Mathf.Lerp(15f, 45f, Mathf.InverseLerp(min, max, Mathf.Clamp(_rigidbody.linearVelocity.magnitude, min, max)));
+
+        Debug.Log("boop1");
+        yield return new WaitForSeconds(Mathf.Lerp(1.2f, 0f, Mathf.InverseLerp(min, max, Mathf.Clamp(_rigidbody.linearVelocity.magnitude, min, max))));
+
+        Debug.Log("boop2");
+
+        while(_rigidbody.linearVelocity.magnitude >= 30f)
+        {
+            _rigidbody.linearVelocity = Vector3.Lerp(_rigidbody.linearVelocity, Vector3.zero, Mathf.Lerp(0.02f, 1f, Mathf.InverseLerp(min, max, Mathf.Clamp(_rigidbody.linearVelocity.magnitude, min, max))));
+            
+            if (_moved)
+            {
+                _balloon = null;
+                _bood = false;
+                _maxIdleVelocity = initMax;
+                yield break;
+            }
+
+            yield return null;
+        }
+
+        Debug.Log("boop3");
+
+        _bood = false;
+        _balloon = null;
+        _maxIdleVelocity = initMax;
+    }
+
+
     public void Duplicate(bool Impulse = false)
     {
         GameObject newBubble = Instantiate(gameObject);
@@ -65,15 +118,19 @@ public class Bubble : MonoBehaviour
             newBubble.GetComponent<Bubble>().Move(_rigidbody.linearVelocity * -10);
     }
 
+    private bool _bood = false;
+    private bool _moved = false;
     public void Move(Vector3 impulse)
     {
+        // Debug.Log("bbl vel mag: " + _rigidbody.linearVelocity.magnitude );
         _rigidbody.linearVelocity += impulse;
+        
         // Debug.Log("actual: " + _rigidbody.linearVelocity);
     }
 
     public void Pop()
     {
-        // StartCoroutine(StartPop());
+        StartCoroutine(StartPop());
     }
 
     private IEnumerator StartPop()
@@ -88,6 +145,7 @@ public class Bubble : MonoBehaviour
         Renderer renderer = GetComponentInChildren<Renderer>();
 
         _particles.gameObject.SetActive(true);
+        _particles.Play();
 
         for (int i = 0; i < 7; i++)
         {
@@ -95,11 +153,14 @@ public class Bubble : MonoBehaviour
             yield return new WaitForSeconds(0.2f);
         }
 
-        renderer.enabled = false;
-        _collider.enabled = false;
+        renderer.enabled = true;
+        // _collider.enabled = true;
 
         yield return new WaitForSeconds(5f);
 
-        Destroy(gameObject);
+        _particles.Stop();
+        _particles.gameObject.SetActive(false);
+
+        // Destroy(gameObject);
     }
 }

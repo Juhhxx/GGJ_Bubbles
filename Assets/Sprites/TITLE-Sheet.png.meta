@@ -598,8 +598,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 400
-        height: 200
+        width: 2000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -618,10 +618,10 @@ TextureImporter:
       name: TITLE-Sheet_1
       rect:
         serializedVersion: 2
-        x: 400
+        x: 2000
         y: 0
-        width: 400
-        height: 200
+        width: 2000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -640,10 +640,10 @@ TextureImporter:
       name: TITLE-Sheet_2
       rect:
         serializedVersion: 2
-        x: 800
+        x: 4000
         y: 0
-        width: 400
-        height: 200
+        width: 2000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,10 +662,10 @@ TextureImporter:
       name: TITLE-Sheet_3
       rect:
         serializedVersion: 2
-        x: 1200
+        x: 6000
         y: 0
-        width: 400
-        height: 200
+        width: 2000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -684,10 +684,10 @@ TextureImporter:
       name: TITLE-Sheet_4
       rect:
         serializedVersion: 2
-        x: 1600
+        x: 8000
         y: 0
-        width: 400
-        height: 200
+        width: 2000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,10 +706,10 @@ TextureImporter:
       name: TITLE-Sheet_5
       rect:
         serializedVersion: 2
-        x: 2000
+        x: 10000
         y: 0
-        width: 400
-        height: 200
+        width: 2000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -728,10 +728,10 @@ TextureImporter:
       name: TITLE-Sheet_6
       rect:
         serializedVersion: 2
-        x: 2400
+        x: 12000
         y: 0
-        width: 400
-        height: 200
+        width: 2000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

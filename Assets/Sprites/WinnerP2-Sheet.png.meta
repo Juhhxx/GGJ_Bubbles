@@ -1,0 +1,1705 @@
+fileFormatVersion: 2
+guid: 866ac973118b9144c807f5aa7ed456dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8765036275187741594
+    second: WinnerP2-Sheet_0
+  - first:
+      213: -9136454682631762311
+    second: WinnerP2-Sheet_1
+  - first:
+      213: -374674130085514475
+    second: WinnerP2-Sheet_2
+  - first:
+      213: -212941528204170098
+    second: WinnerP2-Sheet_3
+  - first:
+      213: -7405570049825688518
+    second: WinnerP2-Sheet_4
+  - first:
+      213: 8062349639351577773
+    second: WinnerP2-Sheet_5
+  - first:
+      213: 9004302686329517729
+    second: WinnerP2-Sheet_6
+  - first:
+      213: 1180682884483110830
+    second: WinnerP2-Sheet_7
+  - first:
+      213: 9041721995674547976
+    second: WinnerP2-Sheet_8
+  - first:
+      213: 1288939070376292279
+    second: WinnerP2-Sheet_9
+  - first:
+      213: 5608523431251773489
+    second: WinnerP2-Sheet_10
+  - first:
+      213: 8175370080830054006
+    second: WinnerP2-Sheet_11
+  - first:
+      213: 4070099751791476231
+    second: WinnerP2-Sheet_12
+  - first:
+      213: -4520653879282334010
+    second: WinnerP2-Sheet_13
+  - first:
+      213: 8238919235787243889
+    second: WinnerP2-Sheet_14
+  - first:
+      213: -3864087715370706932
+    second: WinnerP2-Sheet_15
+  - first:
+      213: -8877936564113447181
+    second: WinnerP2-Sheet_16
+  - first:
+      213: 1798857433212121959
+    second: WinnerP2-Sheet_17
+  - first:
+      213: -5001627691704124622
+    second: WinnerP2-Sheet_18
+  - first:
+      213: 8334047424223610681
+    second: WinnerP2-Sheet_19
+  - first:
+      213: -2382072796599142920
+    second: WinnerP2-Sheet_20
+  - first:
+      213: 1827325369556700740
+    second: WinnerP2-Sheet_21
+  - first:
+      213: 5710492622532399078
+    second: WinnerP2-Sheet_22
+  - first:
+      213: 8774270234112964386
+    second: WinnerP2-Sheet_23
+  - first:
+      213: 1036972564375504694
+    second: WinnerP2-Sheet_24
+  - first:
+      213: 4770880863641755093
+    second: WinnerP2-Sheet_25
+  - first:
+      213: 3853395483899458096
+    second: WinnerP2-Sheet_26
+  - first:
+      213: 3105538962382076045
+    second: WinnerP2-Sheet_27
+  - first:
+      213: 3529223181659562184
+    second: WinnerP2-Sheet_28
+  - first:
+      213: 6262524616930691116
+    second: WinnerP2-Sheet_29
+  - first:
+      213: 6174831966544427838
+    second: WinnerP2-Sheet_30
+  - first:
+      213: 6918368227700325605
+    second: WinnerP2-Sheet_31
+  - first:
+      213: 8214166734490486937
+    second: WinnerP2-Sheet_32
+  - first:
+      213: 2292318424214421967
+    second: WinnerP2-Sheet_33
+  - first:
+      213: 8589517304003288543
+    second: WinnerP2-Sheet_34
+  - first:
+      213: 717436642418993655
+    second: WinnerP2-Sheet_35
+  - first:
+      213: -290314901984272459
+    second: WinnerP2-Sheet_36
+  - first:
+      213: 2706247713286428363
+    second: WinnerP2-Sheet_37
+  - first:
+      213: 1832467450654383591
+    second: WinnerP2-Sheet_38
+  - first:
+      213: 8318556474078166152
+    second: WinnerP2-Sheet_39
+  - first:
+      213: 9013798423363662012
+    second: WinnerP2-Sheet_40
+  - first:
+      213: -2402854321754009319
+    second: WinnerP2-Sheet_41
+  - first:
+      213: 3505030703627004628
+    second: WinnerP2-Sheet_42
+  - first:
+      213: -715367345422568456
+    second: WinnerP2-Sheet_43
+  - first:
+      213: -8667594734149967448
+    second: WinnerP2-Sheet_44
+  - first:
+      213: -6241998877455545552
+    second: WinnerP2-Sheet_45
+  - first:
+      213: 6690300407314294440
+    second: WinnerP2-Sheet_46
+  - first:
+      213: 7488750180731902666
+    second: WinnerP2-Sheet_47
+  - first:
+      213: 3870870691264518995
+    second: WinnerP2-Sheet_48
+  - first:
+      213: 8472424669278044040
+    second: WinnerP2-Sheet_49
+  - first:
+      213: 1785057847390993381
+    second: WinnerP2-Sheet_50
+  - first:
+      213: -1701321433664092994
+    second: WinnerP2-Sheet_51
+  - first:
+      213: 5110266135642833234
+    second: WinnerP2-Sheet_52
+  - first:
+      213: 768692753354771164
+    second: WinnerP2-Sheet_53
+  - first:
+      213: -7330127706296056088
+    second: WinnerP2-Sheet_54
+  - first:
+      213: -1416360118860634624
+    second: WinnerP2-Sheet_55
+  - first:
+      213: 1690726756593898575
+    second: WinnerP2-Sheet_56
+  - first:
+      213: -131012110559286366
+    second: WinnerP2-Sheet_57
+  - first:
+      213: -1022561719792781324
+    second: WinnerP2-Sheet_58
+  - first:
+      213: 115639408056784233
+    second: WinnerP2-Sheet_59
+  - first:
+      213: -8710143517047852494
+    second: WinnerP2-Sheet_60
+  - first:
+      213: 1400227773303403695
+    second: WinnerP2-Sheet_61
+  - first:
+      213: 4827731412246886027
+    second: WinnerP2-Sheet_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a937af99d0aa3a970800000000000000
+      internalID: 8765036275187741594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e87478fdac43180800000000000000
+      internalID: -9136454682631762311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51379b12dd3eccaf0800000000000000
+      internalID: -374674130085514475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c267deeca7b0df0800000000000000
+      internalID: -212941528204170098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a343edca6412a3990800000000000000
+      internalID: -7405570049825688518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dacac84e74833ef60800000000000000
+      internalID: 8062349639351577773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a634cc1695b5fc70800000000000000
+      internalID: 9004302686329517729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7dff1f3d0a26010800000000000000
+      internalID: 1180682884483110830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 13
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807740eff36aa7d70800000000000000
+      internalID: 9041721995674547976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfa6e2614b33e110800000000000000
+      internalID: 1288939070376292279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1388732785a75dd40800000000000000
+      internalID: 5608523431251773489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e5b3706cfb47170800000000000000
+      internalID: 8175370080830054006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ebfe1f826eb7830800000000000000
+      internalID: 4070099751791476231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c682ec8f396341c0800000000000000
+      internalID: -4520653879282334010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1714b3ea465865270800000000000000
+      internalID: 8238919235787243889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08d06812b0006ac0800000000000000
+      internalID: -3864087715370706932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6e0957bbb3bc480800000000000000
+      internalID: -8877936564113447181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 13
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763fd240e43d6f810800000000000000
+      internalID: 1798857433212121959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23bf7393d16a69ab0800000000000000
+      internalID: -5001627691704124622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9378b160afb78a370800000000000000
+      internalID: 8334047424223610681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f53699896d21fed0800000000000000
+      internalID: -2382072796599142920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e8c75fdb6fb5910800000000000000
+      internalID: 1827325369556700740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef4882e8cebf3f40800000000000000
+      internalID: 5710492622532399078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22736933a4874c970800000000000000
+      internalID: 8774270234112964386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6378d6d9d01146e00800000000000000
+      internalID: 1036972564375504694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd53174ed2953240800000000000000
+      internalID: 4770880863641755093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 13
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032fbe4c6c20a7530800000000000000
+      internalID: 3853395483899458096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d883be08b37191b20800000000000000
+      internalID: 3105538962382076045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c064ebf8c15af030800000000000000
+      internalID: 3529223181659562184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c280b4575f4f8e650800000000000000
+      internalID: 6262524616930691116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b7b9935f861b550800000000000000
+      internalID: 6174831966544427838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec3d6d7f3bf20060800000000000000
+      internalID: 6918368227700325605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998c22fdf159ef170800000000000000
+      internalID: 8214166734490486937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1426b2673ffcf10800000000000000
+      internalID: 2292318424214421967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdddf219a78143770800000000000000
+      internalID: 8589517304003288543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 13
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9ab3c33d8d4f900800000000000000
+      internalID: 717436642418993655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf9932822898fbf0800000000000000
+      internalID: -290314901984272459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc696a8f4f58e8520800000000000000
+      internalID: 2706247713286428363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed58b2007b3e6910800000000000000
+      internalID: 1832467450654383591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c74712a03717370800000000000000
+      internalID: 8318556474078166152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0319da8e1771d70800000000000000
+      internalID: 9013798423363662012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91117d8a9b857aed0800000000000000
+      internalID: -2402854321754009319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da6680cade54a030800000000000000
+      internalID: 3505030703627004628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f37c2480318216f0800000000000000
+      internalID: -715367345422568456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 13
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1e1fd138486b780800000000000000
+      internalID: -8667594734149967448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b00eca717ff59a0800000000000000
+      internalID: -6241998877455545552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6ae9216c8b8dc50800000000000000
+      internalID: 6690300407314294440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acada2ebc926de760800000000000000
+      internalID: 7488750180731902666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bda4c826818b530800000000000000
+      internalID: 3870870691264518995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ff29e0959149570800000000000000
+      internalID: 8472424669278044040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb734197acc5c810800000000000000
+      internalID: 1785057847390993381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb481b98b21b368e0800000000000000
+      internalID: -1701321433664092994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25103ba99ff4be640800000000000000
+      internalID: 5110266135642833234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 13
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdac0298cf1faaa00800000000000000
+      internalID: 768692753354771164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e689f310b7264a90800000000000000
+      internalID: -7330127706296056088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0062841e9f3185ce0800000000000000
+      internalID: -1416360118860634624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44170bf60ba67710800000000000000
+      internalID: 1690726756593898575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abe6d8fd2d8e2ef0800000000000000
+      internalID: -131012110559286366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7b6da98812fc1f0800000000000000
+      internalID: -1022561719792781324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965d24fcd65da9100800000000000000
+      internalID: 115639408056784233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232f0bb9e9a5f1780800000000000000
+      internalID: -8710143517047852494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4b268bdbb9e6310800000000000000
+      internalID: 1400227773303403695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinnerP2-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 13
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8678f9142c8ff240800000000000000
+      internalID: 4827731412246886027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

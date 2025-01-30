@@ -16,10 +16,9 @@ public class PlayerInput : MonoBehaviour
     [SerializeField] public bool CanAffect { get; private set; } = true;
     private Shaker _shaker;
     private Rigidbody _rigidbody;
-    private Vector2 _moveDelta = new Vector2(0f, 0f);
-    private Vector2 _aimDelta = new Vector2(0f, 0f);
-    private Vector3 _move = new Vector3(0f, 0f, 0f);
-    private Vector3 _aim = new Vector3(0f, 0f, 0f);
+    private Vector2 _moveDelta = Vector2.zero;
+    private Vector2 _aimDelta = Vector2.zero;
+    private Vector3 _aim = Vector3.zero;
 
 
 
@@ -66,19 +65,18 @@ public class PlayerInput : MonoBehaviour
 
         _swingSlide.maxValue = _maxForce;
         _swingSlide.minValue = _minForce;
-        _swing.GetComponentInChildren<Swing>();
+        _swing = GetComponent<Swing>();
     }
     private float _timer = 0f;
     private void Update()
     {
-        DoMovement();
-        DoAim();
-
         if (Input.GetButtonDown("Fire" + _playerNum))
         {
             _animator.SetTrigger("Hold");
+        }
 
-
+        if (Input.GetButton("Fire" + _playerNum))
+        {
             _timer += Time.deltaTime;
             float t = _timer / _forceTime;
             _swing._force += Mathf.Lerp(_minForce, _maxForce, t);
@@ -95,6 +93,9 @@ public class PlayerInput : MonoBehaviour
 
     public void FixedUpdate()
     {
+        DoMovement();
+        DoAim();
+
         m_CollisionOccurred = false;
 
         _rigidbody.linearVelocity = _baseVelocity + _impulseVelocity;
@@ -111,7 +112,7 @@ public class PlayerInput : MonoBehaviour
         _baseVelocity.x = _velocity * _moveDelta.x;
         _baseVelocity.z = _velocity * _moveDelta.y;
 
-        Look(_feetTrans, _move);
+        Look(_feetTrans, _baseVelocity);
 
         _feetAnimator.SetBool("IsMoving", _moveDelta != Vector2.zero);
     }
@@ -189,6 +190,7 @@ public class PlayerInput : MonoBehaviour
     /// <param name="lookTo"></param>
     private void Look(Transform trans, Vector3 lookTo)
     {
+        Debug.Log("LOOKING");
         Vector3 actual = transform.position - lookTo;
         trans.LookAt(actual);
     }

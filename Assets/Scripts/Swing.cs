@@ -9,6 +9,7 @@ public class Swing : MonoBehaviour
     [SerializeField] public float _force;
     [SerializeField] private int _impactTime;
     [SerializeField] private GameObject _invert;
+    [SerializeField] private PlaySound _playSound;
     private YieldInstruction _wfs;
     private Bubble _bubble;
     private PlayerInput _player;
@@ -89,9 +90,11 @@ public class Swing : MonoBehaviour
     }
     private void ApplyForce()
     {
-            Vector3 finalForce = -(_batTrans.forward) * _force;
-            _bubble?.Move(finalForce);
-            // _player?.Move(finalForce);
+        Debug.Log("SWING");
+        Vector3 finalForce = -(_batTrans.forward) * _force;
+        _bubble?.Move(finalForce);
+        _playSound.PlaySounds();
+        // _player?.Move(finalForce);
     }
 
 }

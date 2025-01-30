@@ -174,7 +174,8 @@ public class GameControl : MonoBehaviour
     private IEnumerator WaitFor()
     {
         yield return new WaitForSeconds(8f);
-        StartRound(_round);
+        if (_round.activeSelf)
+            StartRound(_round);
     }
     public void StartRound(GameObject round)
     {

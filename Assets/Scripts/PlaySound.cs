@@ -24,6 +24,9 @@ public class PlaySound : MonoBehaviour
         else
             _audioSource.clip = _audioToPlay[0];
         
-        _audioSource.Play();
+        if(!_audioSource.isPlaying)
+            _audioSource.Play();
+
+        Debug.Log($"{gameObject.name} is Playing Sounds");
     } 
 }

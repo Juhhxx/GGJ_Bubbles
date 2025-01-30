@@ -1,0 +1,1880 @@
+fileFormatVersion: 2
+guid: f2ec7e0eb6d6363478b6fba50b359bd7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1331189657310338502
+    second: WinneP1-Sheet_0
+  - first:
+      213: -4775457806363244808
+    second: WinneP1-Sheet_1
+  - first:
+      213: 5154720928228171049
+    second: WinneP1-Sheet_2
+  - first:
+      213: -2955844802294178588
+    second: WinneP1-Sheet_3
+  - first:
+      213: -4218778141445038809
+    second: WinneP1-Sheet_4
+  - first:
+      213: -6741600100544669891
+    second: WinneP1-Sheet_5
+  - first:
+      213: 853533822401901592
+    second: WinneP1-Sheet_6
+  - first:
+      213: 1811923958674847214
+    second: WinneP1-Sheet_7
+  - first:
+      213: -8441957639845180458
+    second: WinneP1-Sheet_8
+  - first:
+      213: 2749129209853261081
+    second: WinneP1-Sheet_9
+  - first:
+      213: -5932796245213994783
+    second: WinneP1-Sheet_10
+  - first:
+      213: 5177165311238961208
+    second: WinneP1-Sheet_11
+  - first:
+      213: -4908074633396994756
+    second: WinneP1-Sheet_12
+  - first:
+      213: -6227453916564115419
+    second: WinneP1-Sheet_13
+  - first:
+      213: -342160946302050335
+    second: WinneP1-Sheet_14
+  - first:
+      213: -1494654639345209600
+    second: WinneP1-Sheet_15
+  - first:
+      213: 2442070591806164751
+    second: WinneP1-Sheet_16
+  - first:
+      213: 6765290651364276886
+    second: WinneP1-Sheet_17
+  - first:
+      213: 6355852215717451320
+    second: WinneP1-Sheet_18
+  - first:
+      213: 3103061047693163719
+    second: WinneP1-Sheet_19
+  - first:
+      213: -5648410755513316361
+    second: WinneP1-Sheet_20
+  - first:
+      213: -6153202762966108788
+    second: WinneP1-Sheet_21
+  - first:
+      213: -1618945509656963176
+    second: WinneP1-Sheet_22
+  - first:
+      213: 982557231852230537
+    second: WinneP1-Sheet_23
+  - first:
+      213: -4560160491717910909
+    second: WinneP1-Sheet_24
+  - first:
+      213: 1243048240141953318
+    second: WinneP1-Sheet_25
+  - first:
+      213: 4824177009548641180
+    second: WinneP1-Sheet_26
+  - first:
+      213: -6580854709718091845
+    second: WinneP1-Sheet_27
+  - first:
+      213: -7223376171891977365
+    second: WinneP1-Sheet_28
+  - first:
+      213: 6292691475789231454
+    second: WinneP1-Sheet_29
+  - first:
+      213: -2386103942521884351
+    second: WinneP1-Sheet_30
+  - first:
+      213: 2295053914676122206
+    second: WinneP1-Sheet_31
+  - first:
+      213: 7488420034782660497
+    second: WinneP1-Sheet_32
+  - first:
+      213: 6502781070898026045
+    second: WinneP1-Sheet_33
+  - first:
+      213: -1257581254480614455
+    second: WinneP1-Sheet_34
+  - first:
+      213: -2864600013143000478
+    second: WinneP1-Sheet_35
+  - first:
+      213: -8638501937633100173
+    second: WinneP1-Sheet_36
+  - first:
+      213: 7992745629740177128
+    second: WinneP1-Sheet_37
+  - first:
+      213: -525661144691967632
+    second: WinneP1-Sheet_38
+  - first:
+      213: -2859565500140114171
+    second: WinneP1-Sheet_39
+  - first:
+      213: -4274576956460336989
+    second: WinneP1-Sheet_40
+  - first:
+      213: -2893793892999423966
+    second: WinneP1-Sheet_41
+  - first:
+      213: 6454554214985060401
+    second: WinneP1-Sheet_42
+  - first:
+      213: -5667619227307770022
+    second: WinneP1-Sheet_43
+  - first:
+      213: -1733384294496598849
+    second: WinneP1-Sheet_44
+  - first:
+      213: -5959515751390023006
+    second: WinneP1-Sheet_45
+  - first:
+      213: -2509978317579956731
+    second: WinneP1-Sheet_46
+  - first:
+      213: -6369832648446817847
+    second: WinneP1-Sheet_47
+  - first:
+      213: 4019692283383658766
+    second: WinneP1-Sheet_48
+  - first:
+      213: 4088858702686722914
+    second: WinneP1-Sheet_49
+  - first:
+      213: 3000917555092793350
+    second: WinneP1-Sheet_50
+  - first:
+      213: -3168410281134083595
+    second: WinneP1-Sheet_51
+  - first:
+      213: 8317894153682595561
+    second: WinneP1-Sheet_52
+  - first:
+      213: -165877057880855993
+    second: WinneP1-Sheet_53
+  - first:
+      213: 5248146747858074190
+    second: WinneP1-Sheet_54
+  - first:
+      213: -8487180406661077864
+    second: WinneP1-Sheet_55
+  - first:
+      213: -8798958717884751253
+    second: WinneP1-Sheet_56
+  - first:
+      213: 5442238006275231768
+    second: WinneP1-Sheet_57
+  - first:
+      213: 5568696303339592479
+    second: WinneP1-Sheet_58
+  - first:
+      213: 5105928338854072421
+    second: WinneP1-Sheet_59
+  - first:
+      213: 3740029183804603448
+    second: WinneP1-Sheet_60
+  - first:
+      213: -8908358991130766496
+    second: WinneP1-Sheet_61
+  - first:
+      213: -3126831197507431083
+    second: WinneP1-Sheet_62
+  - first:
+      213: 4660959777584448865
+    second: WinneP1-Sheet_63
+  - first:
+      213: -585818409316640182
+    second: WinneP1-Sheet_64
+  - first:
+      213: 1524830495188273048
+    second: WinneP1-Sheet_65
+  - first:
+      213: 863061047622963222
+    second: WinneP1-Sheet_66
+  - first:
+      213: -8053829281633458114
+    second: WinneP1-Sheet_67
+  - first:
+      213: -1119663925774983594
+    second: WinneP1-Sheet_68
+  - first:
+      213: -7154736318290900428
+    second: WinneP1-Sheet_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WinneP1-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32e7534f0aa68de0800000000000000
+      internalID: -1331189657310338502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f64ad33d6a2abdb0800000000000000
+      internalID: -4775457806363244808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ddf439f5f398740800000000000000
+      internalID: 5154720928228171049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec121420dabaf6d0800000000000000
+      internalID: -2955844802294178588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d5cf4e1a3e375c0800000000000000
+      internalID: -4218778141445038809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d371c455d660172a0800000000000000
+      internalID: -6741600100544669891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814fb004d7c58db00800000000000000
+      internalID: 853533822401901592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee575dc8d3f352910800000000000000
+      internalID: 1811923958674847214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 15
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6db0224014428da80800000000000000
+      internalID: -8441957639845180458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91534fa637ed62620800000000000000
+      internalID: 2749129209853261081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0af3f8f397aada0800000000000000
+      internalID: -5932796245213994783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8387fd7bb6cf8d740800000000000000
+      internalID: 5177165311238961208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d3441002403ebb0800000000000000
+      internalID: -4908074633396994756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520b41848a3a399a0800000000000000
+      internalID: -6227453916564115419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef97a3ae66604bf0800000000000000
+      internalID: -342160946302050335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f60f7468be14be0800000000000000
+      internalID: -1494654639345209600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fc80db34af3e120800000000000000
+      internalID: 2442070591806164751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 15
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ab6dcd00423ed50800000000000000
+      internalID: 6765290651364276886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836d7ba5ae5843850800000000000000
+      internalID: 6355852215717451320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc3a180599401b20800000000000000
+      internalID: 3103061047693163719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb022c2850dc91b0800000000000000
+      internalID: -5648410755513316361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85f37a20be6b9aa0800000000000000
+      internalID: -6153202762966108788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897de22f2a95889e0800000000000000
+      internalID: -1618945509656963176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9871b08b89eb2ad00800000000000000
+      internalID: 982557231852230537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e126c813e07b0c0800000000000000
+      internalID: -4560160491717910909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629e558d9c1304110800000000000000
+      internalID: 1243048240141953318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 15
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93c0cb3e6be2f240800000000000000
+      internalID: 4824177009548641180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7fbc4228b1ca4a0800000000000000
+      internalID: -6580854709718091845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b639b5b84a961cb90800000000000000
+      internalID: -7223376171891977365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55bb8f9e81245750800000000000000
+      internalID: 6292691475789231454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141f2dc3b1bd2eed0800000000000000
+      internalID: -2386103942521884351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52d3ac206ba9df10800000000000000
+      internalID: 2295053914676122206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1978326a8563ce760800000000000000
+      internalID: 7488420034782660497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36d2074ee48e3a50800000000000000
+      internalID: 6502781070898026045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb2e72138c2c8ee0800000000000000
+      internalID: -1257581254480614455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 15
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a38012775ee38d0800000000000000
+      internalID: -2864600013143000478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37efad7a140ed1880800000000000000
+      internalID: -8638501937633100173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e618b88dcfebee60800000000000000
+      internalID: 7992745629740177128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079f86659f974b8f0800000000000000
+      internalID: -525661144691967632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50faf280458c058d0800000000000000
+      internalID: -2859565500140114171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a87c11e7e6ada4c0800000000000000
+      internalID: -4274576956460336989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228139a49cd27d7d0800000000000000
+      internalID: -2893793892999423966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1305faf5cde239950800000000000000
+      internalID: 6454554214985060401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f752257529851b0800000000000000
+      internalID: -5667619227307770022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 15
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb40a430b28c1f7e0800000000000000
+      internalID: -1733384294496598849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a27d0dbffb8b4da0800000000000000
+      internalID: -5959515751390023006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ec6b2c404ca2dd0800000000000000
+      internalID: -2509978317579956731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c944ae74fec997a0800000000000000
+      internalID: -6369832648446817847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e093671a5d0d8c730800000000000000
+      internalID: 4019692283383658766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b186e835b8eb830800000000000000
+      internalID: 4088858702686722914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6082a87ed9665a920800000000000000
+      internalID: 3000917555092793350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1be42e2ab8704d0800000000000000
+      internalID: -3168410281134083595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eeac85a9a81f6370800000000000000
+      internalID: 8317894153682595561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 15
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74aef98d1bfa2bdf0800000000000000
+      internalID: -165877057880855993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ab33b49a925d840800000000000000
+      internalID: 5248146747858074190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 24
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894af4c136a773a80800000000000000
+      internalID: -8487180406661077864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62272b3aa1d3e580800000000000000
+      internalID: -8798958717884751253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8105a2be1a6b68b40800000000000000
+      internalID: 5442238006275231768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b569e98cbf74d40800000000000000
+      internalID: 5568696303339592479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5605ff595c6ebd640800000000000000
+      internalID: 5105928338854072421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 15
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c74462ab047e330800000000000000
+      internalID: 3740029183804603448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 15
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0635ef132b62f5480800000000000000
+      internalID: -8908358991130766496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 15
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555d5ffa7934b94d0800000000000000
+      internalID: -3126831197507431083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 13
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1650e4f093e0fa040800000000000000
+      internalID: 4660959777584448865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 13
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a1cc1b241ced7f0800000000000000
+      internalID: -585818409316640182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 13
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8974168a149492510800000000000000
+      internalID: 1524830495188273048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 13
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6101b0b33753afb00800000000000000
+      internalID: 863061047622963222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 13
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38299a70fc0b3090800000000000000
+      internalID: -8053829281633458114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 13
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65edc5c77972670f0800000000000000
+      internalID: -1119663925774983594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinneP1-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 13
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a4fa6d93545bc90800000000000000
+      internalID: -7154736318290900428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

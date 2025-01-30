@@ -10,6 +10,8 @@ public class GameControl : MonoBehaviour
 {
     [SerializeField] private PlayerInput _player1;
     [SerializeField] private PlayerInput _player2;
+    [SerializeField] private Bubble _bubble;
+    
 
     [SerializeField] private GameObject _spikes;
     [SerializeField] private GameObject _bounce;
@@ -22,6 +24,8 @@ public class GameControl : MonoBehaviour
     [SerializeField] private GameObject _winObject;
     [SerializeField] private GameObject _scoreObject;
     [SerializeField] private GameObject _pauseObject;
+    [SerializeField] private GameObject _round;
+    [SerializeField] private Animator _roundAnimator;
 
 
     private void Start()
@@ -32,6 +36,7 @@ public class GameControl : MonoBehaviour
     private void Update()
     {
         if (_winObject.activeSelf) return;
+        if (_changingRound) return;
 
         if (Input.GetKeyUp(KeyCode.Escape))
         {
@@ -76,11 +81,13 @@ public class GameControl : MonoBehaviour
         if (_player2.Points + _player1.Points == 2)
             _spikes.SetActive(true);
 
+        if (_player2.Points + _player1.Points < 3)
+            Round(_player2.Points + _player1.Points +1);
+
 
         _scoreObject.GetComponentInChildren<TMP_Text>().text = $"{_player1.Points} - {_player2.Points}";
 
         CheckForWin();
-        DoReset();
     }
 
     private void CheckForWin()
@@ -134,7 +141,37 @@ public class GameControl : MonoBehaviour
         Time.timeScale = 1f;
         Time.fixedDeltaTime = 0.02f;
 
+        _player1.enabled = true;
+        _player2.enabled = true;
+
         _player1.ResetPlayer();
         _player2.ResetPlayer();
+
+        _bubble.ResetBubble();
+    }
+
+    private bool _changingRound = false;
+    private void Round(int round)
+    {
+        _changingRound = true;
+
+        _player1.enabled = false;
+        _player2.enabled = false;
+
+        _roundAnimator.SetTrigger("Round" + round);
+
+        _round.SetActive(true);
+
+        Time.timeScale = 0.1f;
+        Time.fixedDeltaTime = 0.02f * Time.timeScale;
+    }
+
+    public void StartRound(GameObject round)
+    {
+        round.SetActive(false);
+
+        DoReset();
+
+        _changingRound = false;
     }
 }

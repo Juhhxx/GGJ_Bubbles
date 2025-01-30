@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerInput : MonoBehaviour
 {
@@ -19,6 +20,16 @@ public class PlayerInput : MonoBehaviour
     private Vector2 _aimDelta = new Vector2(0f, 0f);
     private Vector3 _move = new Vector3(0f, 0f, 0f);
     private Vector3 _aim = new Vector3(0f, 0f, 0f);
+
+
+
+    [SerializeField] private float _maxForce;
+    [SerializeField] private float _minForce;
+    [SerializeField] private float _forceTime;
+    [SerializeField] private Slider _swingSlide;
+    private Swing _swing;
+
+
 
     [field:SerializeField] public int Lives { get; private set; }
     public int Points { get; set; }
@@ -51,17 +62,35 @@ public class PlayerInput : MonoBehaviour
 
         _rigidbody = GetComponent<Rigidbody>();
         _aim.y = transform.position.y;
+
+
+        _swingSlide.maxValue = _maxForce;
+        _swingSlide.minValue = _minForce;
+        _swing.GetComponentInChildren<Swing>();
     }
+    private float _timer = 0f;
     private void Update()
     {
         DoMovement();
         DoAim();
 
         if (Input.GetButtonDown("Fire" + _playerNum))
+        {
             _animator.SetTrigger("Hold");
 
+
+            _timer += Time.deltaTime;
+            float t = _timer / _forceTime;
+            _swing._force += Mathf.Lerp(_minForce, _maxForce, t);
+            _swingSlide.value = _swing._force;
+        }
+
         if (Input.GetButtonUp("Fire" + _playerNum))
+        {
+            _swingSlide.value = 0f;
+            _timer = 0f;
             _animator.SetTrigger("Swing");
+        }
     }
 
     public void FixedUpdate()

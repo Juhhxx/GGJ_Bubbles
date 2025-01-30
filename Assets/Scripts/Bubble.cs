@@ -13,9 +13,12 @@ public class Bubble : MonoBehaviour
     [SerializeField] private ParticleSystem _particles;
     public static int? Amount { get; private set; }
     private Vector3 _newDir = new Vector3(0f, 0f, 0f);
+    private Vector3 _initPos;
 
     private void Start()
     {
+        _initPos = transform.position;
+
         if (Amount == null)
             Amount = 1;
 
@@ -162,5 +165,11 @@ public class Bubble : MonoBehaviour
         _particles.gameObject.SetActive(false);
 
         // Destroy(gameObject);
+    }
+
+    public void ResetBubble()
+    {
+        _rigidbody.linearVelocity = new Vector3(0f, 0f, 0f);
+        transform.position = _initPos;
     }
 }

@@ -1,11 +1,12 @@
 using UnityEngine;
 using System.Collections;
 using Unity.VisualScripting;
+using UnityEngine.UI;
 
 public class Swing : MonoBehaviour
 {
     [SerializeField] private Transform _batTrans;
-    [SerializeField] private float _force;
+    [SerializeField] public float _force;
     [SerializeField] private int _impactTime;
     [SerializeField] private GameObject _invert;
     private YieldInstruction _wfs;

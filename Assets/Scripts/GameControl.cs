@@ -25,7 +25,7 @@ public class GameControl : MonoBehaviour
     [SerializeField] private GameObject _scoreObject;
     [SerializeField] private GameObject _pauseObject;
     [SerializeField] private GameObject _round;
-    [SerializeField] private Animator _roundAnimator;
+    [SerializeField] private TMP_Text _roundText;
 
 
     private void Start()
@@ -158,14 +158,21 @@ public class GameControl : MonoBehaviour
         _player1.enabled = false;
         _player2.enabled = false;
 
-        _roundAnimator.SetTrigger("Round" + round);
+        _roundText.text = "Round " + round;
 
         _round.SetActive(true);
 
         Time.timeScale = 0.1f;
         Time.fixedDeltaTime = 0.02f * Time.timeScale;
+
+        StartCoroutine(WaitFor());
     }
 
+    private IEnumerator WaitFor()
+    {
+        yield return new WaitForSeconds(8f);
+        StartRound(_round);
+    }
     public void StartRound(GameObject round)
     {
         round.SetActive(false);

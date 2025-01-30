@@ -26,6 +26,7 @@ public class GameControl : MonoBehaviour
     [SerializeField] private GameObject _pauseObject;
     [SerializeField] private GameObject _round;
     [SerializeField] private TMP_Text _roundText;
+    [SerializeField] private Animator _winAnimator;
 
 
     private void Start()
@@ -110,6 +111,8 @@ public class GameControl : MonoBehaviour
         _player2.enabled = false;
 
         _winObject.SetActive(true);
+
+        _winAnimator.SetTrigger("Win" + winner.PlayerNumber);
 
         // _winObject.GetComponentInChildren<TMP_Text>().text = $"Player {winner.PlayerNumber} wins!";
 
